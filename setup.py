@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 
 
 # check python version
-if sys.version_info < (3, 5, 4):
-    sys.exit('Python < 3.5.4 is not supported.')
+# if sys.version_info < (3, 5, 4):
+#     sys.exit('Python < 3.5.4 is not supported.')
 
 setup(
     name='nest',
